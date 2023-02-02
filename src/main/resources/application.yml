@@ -1,0 +1,17 @@
+#resource端口号是9090
+server:
+  port: 9090
+
+
+#resource配置
+spring:
+    security:
+      oauth2:
+        resourceserver:
+          jwt:
+            issuer-uri: http://127.0.0.1:8090
+
+
+
+
+
